@@ -1,0 +1,88 @@
+.overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.722);
+  z-index: 999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding: 2.4rem;
+  background-color: white;
+  width: 40%;
+
+  border-radius: 10px;
+
+  position: absolute;
+  z-index: 999;
+  top: 25%;
+  left: 30%;
+}
+
+.userImg {
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.usersToChatWith {
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+.usersToChatWith:hover {
+  background-color: rgba(23, 100, 142, 0.463);
+}
+.userName {
+  font-size: 1.8rem;
+  color: rgb(85, 83, 83);
+  font-weight: 500;
+}
+.startChat {
+  border: 1px solid rgb(23, 101, 142);
+  background-color: transparent;
+  padding: 0.8rem 1.4rem;
+  font-size: 1.4rem;
+  width: 40%;
+  border-radius: 5px;
+  font-weight: 400;
+  color: rgb(48, 47, 47);
+  transition: all 0.5s;
+  margin-top: 1rem;
+}
+.startChat:hover,
+.startChat:active {
+  background-color: rgb(23, 101, 142);
+  color: white;
+}
+
+.selected {
+  background-color: rgba(23, 100, 142, 0.463);
+}
+.friendsWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+.warning {
+  font-size: 1.2rem;
+  color: rgb(251, 183, 11);
+}

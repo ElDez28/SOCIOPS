@@ -1,0 +1,36 @@
+.modalOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.718);
+  z-index: 2;
+}
+.messageWrapper {
+  background-color: white;
+  height: 30vh;
+  width: 40vw;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.errorIcon {
+  font-size: 6.4rem!important;
+  color: red;
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+.errorText {
+  font-size: 2.4rem;
+
+  margin-top: 2rem;
+  color: red;
+}

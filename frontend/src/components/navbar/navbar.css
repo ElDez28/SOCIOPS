@@ -1,0 +1,113 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgba(231, 143, 70, 0.8571137927827381) 20%,
+    rgba(66, 157, 181, 1) 73%
+  );
+  color: white;
+  align-items: center;
+  height: 7rem;
+  padding: 1.5rem 3.2rem;
+  font-size: 4.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.searchIcon {
+  color: black;
+  background-color: white;
+  border-top-right-radius: 5px;
+  font-size: 3.6rem !important;
+  padding: 0.5rem;
+}
+
+.searchInput {
+  border: none;
+  border-bottom-left-radius: 5px;
+  width: 60%;
+  font-size: 1.4rem;
+  padding: 1rem;
+  outline: none;
+}
+
+.navbarImg {
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.navbarLeft {
+  flex: 2;
+}
+.navbarCenter {
+  flex: 5;
+  display: flex;
+  justify-content: center;
+}
+.navbarRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+  flex: 2;
+}
+
+.navbarIcons {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.navbarIconItem {
+  position: relative;
+  cursor: pointer;
+}
+.navbarIconBadge {
+  position: absolute;
+  top: 1;
+  left: 2rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  text-align: center;
+  background-color: rgb(227, 1, 1);
+  border-radius: 50%;
+  padding: 0.1rem;
+  color: rgb(244, 244, 244);
+  font-size: 1rem;
+  font-weight: bold;
+}
+.navbarIcon {
+  font-size: 2.4rem !important;
+}
+.navbarLinks {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+.navbarLink {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.navbarImgContainer {
+  display: flex;
+}

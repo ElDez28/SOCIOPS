@@ -1,0 +1,191 @@
+.login {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+      90deg,
+      rgba(231, 162, 70, 0.17924264432335435) 20%,
+      rgba(66, 157, 181, 0.6050129524466037) 73%
+    ),
+    url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80");
+}
+.loginWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 60%;
+  max-width: 60%;
+}
+.loginLeft {
+  font-size: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginLogo {
+  font-size: 5rem;
+  font-weight: 800;
+  color: orange;
+}
+.loginDesc {
+  font-size: 2.2rem;
+  color: rgb(213, 213, 213);
+  font-weight: 800;
+}
+
+.loginInput {
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 0.5px solid rgb(174, 172, 172);
+  border-radius: 5px;
+  outline: none;
+}
+.loginInput:focus {
+  outline: 2px solid orange;
+}
+.loginBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.loginButton,
+.loginButton:link .loginButton:visited {
+  border-radius: 5px;
+  font-size: 1.4rem;
+  border: none;
+  width: 20%;
+  height: 4.2rem;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: rgb(243, 109, 13);
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginButton:hover,
+.loginButton:active {
+  background-color: rgb(231, 132, 61);
+  transition: all 0.5s;
+}
+
+/* .loginRegisterButton,
+.loginRegisterButton:link,
+.loginRegisterButton:active {
+  border-radius: 5px;
+  font-size: 1.4rem;
+  border: none;
+  width: 20%;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  color: rgb(62, 60, 60);
+  width: max-content;
+  margin-bottom: 1rem;
+  color: orange;
+  display: flex;
+  align-items: center;
+}
+.loginRegisterButton:hover,
+.loginRegisterButton:active {
+  background-color: rgb(243, 109, 13);
+  transition: all 0.5s;
+  color: white;
+} */
+
+.loginRegisterButton {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: orange;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+.loginForgot {
+  font-size: 1.4rem;
+  color: orange;
+  cursor: pointer;
+
+  text-align: center;
+}
+
+.signupLinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.file label {
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background: linear-gradient(40deg, #ff6ec4, #7873f5);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+
+.file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+.file-input {
+  background-color: white;
+}
+.file-input label {
+  width: 100%;
+  font-size: 1.6rem;
+  color: gray;
+}
+
+.filePreview {
+  height: 8.4rem;
+  width: 8.4rem;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.previewImage {
+  height: 100%;
+  width: 100%;
+}
+.fileLabel {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.fileContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.previewImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.error {
+  box-shadow: 0 0 0 1.5px red;
+}

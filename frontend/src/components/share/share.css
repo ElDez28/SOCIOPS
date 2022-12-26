@@ -1,0 +1,115 @@
+.shareTop {
+  display: flex;
+  gap: 1rem;
+
+  padding: 2rem;
+}
+.share {
+  width: 80%;
+  box-shadow: -3px 2px 9px 0px rgba(0, 0, 0, 0.01);
+  -webkit-box-shadow: -3px 2px 9px 0px rgba(0, 0, 0, 0.01);
+  -moz-box-shadow: -3px 2px 9px 0px rgba(0, 0, 0, 0.01);
+}
+.shareTop img {
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.shareTop input {
+  flex: 8;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+}
+.shareWrapper {
+  border: 1px solid rgba(174, 171, 171, 0.211);
+  border-radius: 5px;
+}
+
+.shareBottom {
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+  border-top: 1px solid rgba(174, 171, 171, 0.211);
+  margin-top: 1.2rem;
+}
+.shareOptionText {
+  font-size: 1.4rem;
+}
+.shareOption {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* margin-top: 1rem; */
+  cursor: pointer;
+}
+
+.media {
+  color: rgb(255, 64, 0);
+  font-size: 2.4rem !important;
+}
+
+.tag {
+  color: rgb(255, 0, 102);
+  font-size: 2.4rem !important;
+}
+
+.location {
+  color: rgb(12, 176, 26);
+  font-size: 2.4rem !important;
+}
+
+.feeling {
+  color: rgb(255, 213, 0);
+  font-size: 2.4rem !important;
+}
+
+.shareOptions {
+  display: flex;
+  justify-content: space-around;
+  flex: 4;
+
+  padding: 1rem;
+}
+
+.shareButton {
+  flex: 1;
+  border: none;
+  background-color: rgba(66, 157, 181, 1);
+  font-size: 1.3rem;
+  color: white;
+  padding: 1rem 0;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+.shareOptionFile {
+  display: none;
+}
+.fileLabel {
+  cursor: pointer;
+}
+.postImgPreview {
+  height: 20rem;
+  width: 25rem;
+  margin: 0 auto;
+  position: relative;
+}
+.postImg {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.clearIcon {
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+  cursor: pointer;
+  border: 1px solid orange;
+  border-radius: 50%;
+  color: orange;
+}

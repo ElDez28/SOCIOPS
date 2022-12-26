@@ -1,0 +1,9 @@
+.homeScreen {
+  display: flex;
+  font-size: 3.2rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 17%;
+  margin-right: 6rem;
+  position: relative;
+}
